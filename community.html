@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status | WhatsApp-UI-Clone</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+    <!-- TailwindCSS -->
+    <link rel="stylesheet" href="./assets/css/output.css">
+</head>
+
+<body class="bg-green-300">
+    <section class="bg-white max-w-sm mx-auto">
+        <!-- Head section -->
+        <div class="bg-emerald-800 text-white px-3 py-5 flex items-center justify-between">
+            <h4 class="font-semibold text-xl">WhatsApp</h4>
+            <div class="flex justify-between items-center space-x-4 hover:cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                    class="fill-current w-6">
+                    <path
+                        d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z"
+                        class="fill-current" />
+                </svg>
+                <a href="https://github.com/SwethaDSalvatore/WhatsApp-UI-Clone.git" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!-- nav section -->
+        <ul class=" bg-emerald-800 px-3 py-2 text-white flex justify-between items-center space-x-4">
+            <li class="mr-8 relative">
+                <a href="./community.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                        class="fill-current w-6">
+                        <path
+                            d="M12 12.75c1.63 0 3.07.39 4.24.9c1.08.48 1.76 1.56 1.76 2.73V17c0 .55-.45 1-1 1H7c-.55 0-1-.45-1-1v-.61c0-1.18.68-2.26 1.76-2.73c1.17-.52 2.61-.91 4.24-.91zM4 13c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2zm1.13 1.1c-.37-.06-.74-.1-1.13-.1c-.99 0-1.93.21-2.78.58A2.01 2.01 0 0 0 0 16.43V17c0 .55.45 1 1 1h3.5v-1.61c0-.83.23-1.61.63-2.29zM20 13c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2zm4 3.43c0-.81-.48-1.53-1.22-1.85A6.95 6.95 0 0 0 20 14c-.39 0-.76.04-1.13.1c.4.68.63 1.46.63 2.29V18H23c.55 0 1-.45 1-1v-.57zM12 6c1.66 0 3 1.34 3 3s-1.34 3-3 3s-3-1.34-3-3s1.34-3 3-3z" />
+                    </svg>
+                </a>
+                <div class="absolute right-0 top-8 w-full h-1 bg-white"></div>
+            </li>
+            <li class="flex items-center flex-1 justify-between">
+                <div class="font-medium text-sm flex items-center space-x-2">
+                    <a href="./index.html" class="text-gray-200">Chats</a>
+                    <span
+                        class="bg-white text-emerald-700 p-0.5 rounded-full w-5 h-5 text-xs flex items-center justify-center">
+                        10</span>
+                </div>
+                <div class="font-medium text-sm flex items-center space-x-2">
+                    <a href="./status.html">Updates</a>
+                </div>
+                <div class="font-medium text-sm flex items-center space-x-2 mr-4">
+                    <a href="./calls.html">Calls</a>
+                </div>
+            </li>
+        </ul>
+        <!-- Community -->
+        <div class="bg-white">
+            <!-- New community -->
+            <div
+                class="px-3 pt-4 pb-2 flex items-center justify-between space-x-4 hover:cursor-pointer hover:bg-gray-100 border-b-2 border-gray-300">
+                <div
+                    class="w-[55px] h-[55px] text-white bg-gray-400 rounded-2xl flex items-center justify-center bottom-5 right-5 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                        class="fill-current w-6">
+                        <path
+                            d="M12 12.75c1.63 0 3.07.39 4.24.9c1.08.48 1.76 1.56 1.76 2.73V17c0 .55-.45 1-1 1H7c-.55 0-1-.45-1-1v-.61c0-1.18.68-2.26 1.76-2.73c1.17-.52 2.61-.91 4.24-.91zM4 13c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2zm1.13 1.1c-.37-.06-.74-.1-1.13-.1c-.99 0-1.93.21-2.78.58A2.01 2.01 0 0 0 0 16.43V17c0 .55.45 1 1 1h3.5v-1.61c0-.83.23-1.61.63-2.29zM20 13c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2zm4 3.43c0-.81-.48-1.53-1.22-1.85A6.95 6.95 0 0 0 20 14c-.39 0-.76.04-1.13.1c.4.68.63 1.46.63 2.29V18H23c.55 0 1-.45 1-1v-.57zM12 6c1.66 0 3 1.34 3 3s-1.34 3-3 3s-3-1.34-3-3s1.34-3 3-3z" />
+                    </svg>
+                </div>
+                <div class="flex-1 flex items-center justify-between">
+                    <div>
+                        <h4 class="font-semibold">New community</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- community list -->
+            <div class="text-sm">
+                <div class="flex px-3 py-3 space-x-4 items-center hover:cursor-pointer hover:bg-gray-100 ">
+                    <img src="https://i.pinimg.com/736x/b0/10/a9/b010a9293f09191ddd4cb193a01d5cba--the-vampire-diaries-logo-watch-tv-online.jpg"
+                        alt="Katherine" class="rounded-2xl w-[55px] h-[55px]" />
+                    <div class="flex-1 flex items-center justify-between">
+                        <h4 class="font-semibold">The Vampire Diaries Lovers💕</h4>
+                    </div>
+                </div>
+                <div
+                    class="flex px-3 py-3 space-x-4 items-center hover:cursor-pointer hover:bg-gray-100 border-b-2 border-gray-300">
+                    <img src="https://is2-ssl.mzstatic.com/image/thumb/Music3/v4/5f/ab/ca/5fabca1e-c904-dc1f-ef29-e58aa2b72630/source/3000x3000sr.jpg"
+                        alt="Katherine" class="rounded-2xl w-[55px] h-[55px]" />
+                    <div class="flex-1 flex items-center justify-between">
+                        <h4 class="font-semibold">The Originals Family</h4>
+                    </div>
+                </div>
+                <div class="flex px-3 py-3 space-x-4 items-center hover:cursor-pointer hover:bg-gray-100">
+                    <div
+                        class="w-[55px] h-[55px] text-green-600 bg-green-300 rounded-2xl flex items-center justify-center bottom-5 right-5 cursor-pointer">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3100/3100129.png?uid=R118758537&ga=GA1.1.1187113865.1694519104"
+                            alt="Katherine" class="rounded-2xl w-[25px] h-[25px] text-green-600" />
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="font-semibold">Announcements</h4>
+                        <p class="text-gray-600 text-sm">Caroline: c u @the party Girls 🎉</p>
+                    </div>
+                    <div class="flex flex-col items-center space-y-1">
+                        <span class="text-green-600 font-semibold text-sm grayscale">Yesterday
+                        </span>
+                    </div>
+                </div>
+                <div class="flex px-3 py-3 space-x-4 items-center hover:cursor-pointer hover:bg-gray-100">
+                    <div>
+                        <img src="https://i.pinimg.com/736x/b0/10/a9/b010a9293f09191ddd4cb193a01d5cba--the-vampire-diaries-logo-watch-tv-online.jpg"
+                            alt="Katherine" class="rounded-full w-[55px] h-[55px]" />
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="font-semibold">Team Mystic Falls</h4>
+                        <p class="text-gray-600 text-sm">Elena: Hey Roomiees..!</p>
+                    </div>
+                    <div class="flex flex-col items-center space-y-1">
+                        <span class="text-green-600 font-semibold text-sm grayscale">Yesterday
+                        </span>
+                    </div>
+                </div>
+                <div
+                    class="flex px-3 py-3 mb-4 space-x-4 items-center hover:cursor-pointer hover:bg-gray-100 border-b-2 border-gray-300">
+                    <h4 class="ml-6 mr-6 font-semibold text-gray-600"> > </h4>
+                    <div class="flex-1">
+                        <h4 class="text-gray-600 font-semibold">View all </h4>
+                    </div>
+                </div>
+                <div class="flex px-3 py-3 space-x-4 items-center">
+                    <div>
+
+                    </div>
+                    <div class="flex-1">
+                        <h4 class="font-semibold"></h4>
+                        <p class="text-white text-sm m-20"> .</p>
+                    </div>
+                    <div class="flex flex-col items-center space-y-1">
+                        <span class="text-green-600 font-semibold text-sm grayscale">
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</body>
