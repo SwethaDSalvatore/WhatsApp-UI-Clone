@@ -21,7 +21,7 @@ Tailwind CSS is a utility-first CSS framework. It provides a set of pre-designed
 
 ---
 
-# Please Note :
-This is not an official website, its just an sample template created as a project given by Cyberdude Networks.
+# Acknowledgement :
+This is not an official website, its just an sample template created as a project purposes which has been given by Cyberdude Networks.
 
 ---
