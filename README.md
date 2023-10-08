@@ -4,10 +4,7 @@ WhatsApp-UI-Clone was structured and designed using Tailwind CSS. The project is
 To view the project, you should visit the provided link.
 
 ---
-✨**Source Link is Here**: 
-https://github.com/SwethaDSalvatore/WhatsApp-UI-Clone.git
-
-| 🚀 Index | 🎆 Description |
+| ✨ Index | 🎆 Description |
 |--|--|
 | **License** |MIT  |
 | **Stacks** |HTML & TailwindCSS  |
