@@ -679,6 +679,130 @@ video {
   top: 2.25rem;
 }
 
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.bottom-\[-10\] {
+  bottom: -10;
+}
+
+.bottom-\[-25\] {
+  bottom: -25;
+}
+
+.bottom-\[-25px\] {
+  bottom: -25px;
+}
+
+.bottom-\[-15px\] {
+  bottom: -15px;
+}
+
+.bottom-\[-10px\] {
+  bottom: -10px;
+}
+
+.bottom-\[10px\] {
+  bottom: 10px;
+}
+
+.bottom-\[20px\] {
+  bottom: 20px;
+}
+
+.bottom-\[25px\] {
+  bottom: 25px;
+}
+
+.bottom-\[45px\] {
+  bottom: 45px;
+}
+
+.bottom-\[65px\] {
+  bottom: 65px;
+}
+
+.bottom-\[75px\] {
+  bottom: 75px;
+}
+
+.bottom-\[95px\] {
+  bottom: 95px;
+}
+
+.bottom-\[105px\] {
+  bottom: 105px;
+}
+
+.bottom-\[125px\] {
+  bottom: 125px;
+}
+
+.bottom-\[135px\] {
+  bottom: 135px;
+}
+
+.bottom-\[35px\] {
+  bottom: 35px;
+}
+
+.bottom-\[15px\] {
+  bottom: 15px;
+}
+
+.bottom-\[5px\] {
+  bottom: 5px;
+}
+
+.bottom-\[-5px\] {
+  bottom: -5px;
+}
+
+.bottom-\[-35px\] {
+  bottom: -35px;
+}
+
+.bottom-\[-55px\] {
+  bottom: -55px;
+}
+
+.bottom-\[-75px\] {
+  bottom: -75px;
+}
+
+.bottom-\[-85px\] {
+  bottom: -85px;
+}
+
+.bottom-\[-95px\] {
+  bottom: -95px;
+}
+
+.bottom-\[-125px\] {
+  bottom: -125px;
+}
+
+.bottom-\[-145px\] {
+  bottom: -145px;
+}
+
+.bottom-\[145px\] {
+  bottom: 145px;
+}
+
+.bottom-\[55px\] {
+  bottom: 55px;
+}
+
+.bottom-\[85px\] {
+  bottom: 85px;
+}
+
+.right-\[5px\] {
+  right: 5px;
+}
+
 .isolate {
   isolation: isolate;
 }
